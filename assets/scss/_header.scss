@@ -1,0 +1,27 @@
+.main-header {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &__logo {
+        background-color: #D35A35;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Archivo Black', sans-serif;
+        padding: 13px 16px;
+        &::after {
+            content: "";
+            background-image: url(../img/cub.png);
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            top: 18px;
+            right: 0px;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+    }
+}

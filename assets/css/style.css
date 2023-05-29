@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;700&display=swap");
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #F19E38;
+}
+body.lock {
+  overflow: hidden;
+}
+
+.main-header {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 114px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.main-header__logo {
+  background-color: #D35A35;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Archivo Black", sans-serif;
+  padding: 13px 16px;
+}
+.main-header__logo::after {
+  content: "";
+  background-image: url(../img/cub.png);
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 18px;
+  right: 0px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.main-info {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.call {
+  background-color: #B6DDEF;
+  color: #000;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.call__order {
+  font-weight: 700;
+}
+.call__number {
+  font-style: normal;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 32px;
+}
+
+.banner {
+  background-color: #fff;
+  height: 120px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5.16788px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+
+.products {
+  margin-top: 20px;
+}
+.products__button {
+  display: flex;
+  width: 100%;
+  background-color: #DC5832;
+  outline: none;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  height: 80px;
+  border-radius: 10px;
+}
